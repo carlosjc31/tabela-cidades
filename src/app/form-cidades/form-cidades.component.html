@@ -1,0 +1,49 @@
+<div class="container">
+  <h1>Cadastro de Cidades</h1>
+  <form [formGroup]="formGroupCidade">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nome</label>
+      <input formControlName="nome"
+             type="text"
+             class="form-control"
+             id="name" placeholder="Digite o nome da Cidade">
+    </div>
+    <div class="mb-3">
+      <label for="estado" class="form-label">Estado</label>
+      <input formControlName="estado"
+             type="text"
+             class="form-control"
+             id="estado" placeholder="Digite o nome do estado">
+    </div>
+    <div class="mb-3">
+      <label for="uf" class="form-label">UF</label>
+      <input formControlName="uf"
+             type="text"
+             class="form-control"
+             id="uf" placeholder="Digite a UF da Cidade">
+    </div>
+    <div class="mb-3">
+      <label for="população" class="form-label">População</label>
+      <input formControlName="populacão"
+             type="number"
+             class="form-control"
+             id="população" placeholder="Digite a População da Cidade">
+    </div>
+    <div class="mb-3">
+      <label for="região" class="form-label">Região</label>
+      <input formControlName="região"
+             type="text"
+             class="form-control"
+             id="região" placeholder="Digite a Região da Cidade">
+    </div>
+    <button *ngIf="isEditing"
+            type="button"
+            class="btn btn-primary"
+            (click)="update()">Update</button>
+
+    <button *ngIf="!isEditing"
+            type="button"
+            class="btn btn-primary"
+            (click)="save()">Save</button>
+  </form>
+</div>

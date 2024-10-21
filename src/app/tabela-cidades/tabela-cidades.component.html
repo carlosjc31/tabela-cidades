@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="display-5">
+    Cadastro de Cidades
+  </div>
+  <button class="btn btn-primary" (click)="create()">Novo</button>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Estado</th>
+        <th scope="col">UF</th>
+        <th scope="col">População</th>
+        <th scope="col">Região</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cidade of cidades">
+        <td>{{ cidade.id }}</td>
+        <td>{{ cidade.nome }}</td>
+        <td>{{ cidade.estado }}</td>
+        <td>{{ cidade.uf }}</td>
+        <td>{{ cidade.populacao }}</td>
+        <td>{{ cidade.regiao }}</td>
+        <td><button class="btn btn-danger" (click)="delete(cidade)">Excluir</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

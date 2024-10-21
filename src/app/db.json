@@ -1,0 +1,84 @@
+{
+  "cidades": [
+    {
+      "id": 1,
+      "nome": "São Paulo",
+      "estado": "São Paulo",
+      "uf": "SP",
+      "populacao": 12345678,
+      "regiao": "Sudeste"
+    },
+    {
+      "id": 2,
+      "nome": "Curitiba",
+      "estado": "Parana",
+      "uf": "PR",
+      "populacao": 12345678,
+      "regiao": "Sul"
+    },
+    {
+      "id": 3,
+      "nome": "Rio de Janeiro",
+      "estado": "Rio de Janeiro",
+      "uf": "RJ",
+      "populacao": 12345678,
+      "regiao": "Sudeste"
+    },
+    {
+      "id": 4,
+      "nome": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "uf": "MG",
+      "populacao": 12345678,
+      "regiao": "Sudeste"
+    },
+    {
+      "id": 5,
+      "nome": "Porto Alegre",
+      "estado": "Rio Grande do Sul",
+      "uf": "RS",
+      "populacao": 12345678,
+      "regiao": "Sul"
+    },
+    {
+      "id": 6,
+      "nome": "Florianópolis",
+      "estado": "Santa Catarina",
+      "uf": "SC",
+      "populacao": 12345678,
+      "regiao": "Sul"
+    },
+    {
+      "id": 7,
+      "nome": "Brasília",
+      "estado": "Distrito Federal",
+      "uf": "DF",
+      "populacao": 12345678,
+      "regiao": "Centro-Oeste"
+    },
+    {
+      "id": 8,
+      "nome": "Manaus",
+      "estado": "Amazonas",
+      "uf": "AM",
+      "populacao": 12345678,
+      "regiao": "Norte"
+    },
+    {
+      "id": 9,
+      "nome": "Natal",
+      "estado": "Rio Grande do Norte",
+      "uf": "RN",
+      "populacao": 12345678,
+      "regiao": "Nordeste"
+    },
+    {
+      "id": 10,
+      "nome": "Fortaleza",
+      "estado": "Ceará",
+      "uf": "CE",
+      "populacao": 12345678,
+      "regiao": "Nordeste"
+    }
+  ]
+}
